@@ -1,0 +1,8 @@
+{
+  "name": "wdp108",
+  "version": "1.0.0",
+  "devDependencies": {
+    "apollo-server": "2.2.6",
+    "graphql": "14.0.2"
+  }
+}

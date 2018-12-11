@@ -1,0 +1,25 @@
+version: '3'
+services:
+  db:
+    environment:
+      POSTGRES_PASSWORD: postgres
+    image: postgres:11.0
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  app: &app_base
+    build: .
+    command: bash -c 'rm tmp/pids/server.pid 2>/dev/null; bin/rails s -b "0.0.0.0"'
+    depends_on:
+      - db
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/usr/src/app
+      - bundle_cache:/usr/local/bundle
+volumes:
+  bundle_cache:
+  postgres_data:
