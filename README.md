@@ -1,6 +1,6 @@
 # 『WEB+DB PRESS Vol.108』特集1 サンプルコード
 
-[WEB+DB PRESS Vol.108](#)の特集1「効率急上昇！スキーマ駆動Web API開発」に記載したサンプルコードです。
+[WEB+DB PRESS Vol.108](https://gihyo.jp/magazine/wdpress/archive/2019/vol108)の特集1「効率急上昇！スキーマ駆動Web API開発」に記載したサンプルコードです。
 
 ## 目次
 
@@ -39,7 +39,7 @@
 
 ## お問い合わせ
 
-不具合があった場合は[本書Webページ](#)よりお問い合わせをお願いいたします。
+不具合があった場合は[本書Webページ](https://gihyo.jp/magazine/wdpress/archive/2019/vol108)よりお問い合わせをお願いいたします。
 
 ## ご注意
 
