@@ -37,6 +37,12 @@
 - Apollo Server 2.2.6
 - GraphiQL.app 0.7.2
 
+## ライセンス
+
+サンプルコードはMITライセンスで配布しています。
+
+http://opensource.org/licenses/mit-license.php
+
 ## お問い合わせ
 
 不具合があった場合は[本書Webページ](https://gihyo.jp/magazine/wdpress/archive/2019/vol108)よりお問い合わせをお願いいたします。
